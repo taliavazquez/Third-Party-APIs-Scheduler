@@ -20,7 +20,6 @@ jhkgfdsrtyuioijuhgfdsfghjkl;kjhgfd
 
 ## Project Website
 
-<a href="https://taliavazquez.github.io/Third-Party-APIs-Scheduler
-/"><bold>DEMPLOYED SITE</bold></a>
+<a href="https://taliavazquez.github.io/Third-Party-APIs-Scheduler/"><bold>DEMPLOYED SITE</bold></a>
 
 © 2020 Talia Vazquez
