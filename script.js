@@ -34,7 +34,7 @@ function setDate() {
             console.log(JSON.parse(localStorage.getItem("todo")));
   }
 
-    function saveStorage
+    //function saveStorage
 
   //every element with this class will call this function using jQuery
   $(document).ready(function () {
