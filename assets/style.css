@@ -1,10 +1,11 @@
+/* this covers the whole background */
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 13px;
   line-height: .5;
   background-color: yellow;
 } 
-
+/* this covers the heading */
 .jumbotron {
   text-align: center;
   background-color: magenta;
@@ -12,16 +13,12 @@ body {
   border-radius: 0;
   border-bottom: 20px solid cyan;
 }
-
+/* this is the military time */
 #hourLabel {
   color: magenta;
   font-weight: bold;
 }
-
-#border{
-  color: green;
-}
-
+/* ! need to make this button square */
 .buttonColor {
   font-size: 30px;
   border: 1px solid yellow;
@@ -31,9 +28,8 @@ body {
   border-bottom-right-radius: 20px;
   background-color: yellow;
   color: magenta;
-  
 }
-
+/* this covers user input font color */
 .inputText{
   color: magenta;
   background: cyan;
@@ -43,3 +39,4 @@ body {
   border-top: 1px solid white;;
 }
    
+/* !need to make buttons switch colors active, present, and future slots */
