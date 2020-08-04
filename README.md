@@ -4,19 +4,19 @@ Work Day Planner
 
 ## Motivation
 
-fhgjkl;jhgtfyrdserxcgvhbjnjhytres
+Having organization is a must as a web developer. I've created something simple and easy to use for those of you who have a busy life style and appreciate a bit of structure.
 
 ## Style
 
-HTML, CSS, and JS 
+HTML, CSS, and JS.
 
 ## Credits
 
-gfjhkl;kljkhgfdsghjl;kpoiuytrewsdfghjk
+Aldo Carillo, Ana Luna, Tim Sanders and Nicholas Gonzen
 
 ## Project GitHub Repo
 
-jhkgfdsrtyuioijuhgfdsfghjkl;kjhgfd
+<a href="https://github.com/taliavazquez/Third-Party-APIs-Scheduler"><bold>Repo</bold></a>
 
 ## Project Website
 

@@ -1,0 +1,45 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  line-height: .5;
+  background-color: yellow;
+} 
+
+.jumbotron {
+  text-align: center;
+  background-color: magenta;
+  color: yellow;
+  border-radius: 0;
+  border-bottom: 20px solid cyan;
+}
+
+#hourLabel {
+  color: magenta;
+  font-weight: bold;
+}
+
+#border{
+  color: green;
+}
+
+.buttonColor {
+  font-size: 30px;
+  border: 1px solid yellow;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 20px;
+  background-color: yellow;
+  color: magenta;
+  
+}
+
+.inputText{
+  color: magenta;
+  background: cyan;
+  padding: 30px;
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+   

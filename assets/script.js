@@ -2,19 +2,19 @@
 function setDate() {
   const todaysDate = $("#currentDay");
   const date = moment().format("dddd, MMMM Do YYYY, h:mm a");
-  todaysDate.html(date)
+  todaysDate.html(date);
 }
 function hourList() {
   var containerDiv = $(".container");
   //hours loop
-  for (let i = 9; i <= 17; i++) {
-    var currentDiv = $("<div " + "style='display:flex;'>" + "</div>");
-    if (i <= 11)
-      var labelHour = $("<p id='hourLabel'>" + (i) + ":00am" + "</p>");
-    else
-      var labelHour = $("<p id='hourLabel'>" + (i) + ":00pm" + "</p>");
+  for (let i = 10; i <= 18; i++) {
+    var currentDiv = $("<div " + "class=flex-container;'>" + "</div>");
+    if (i <= 11) var labelHour = $("<p id='hourLabel'>" + i + "00" + "</p>");
+    else var labelHour = $("<p id='hourLabel'>" + i + "00" + "</p>");
     var inputText = $("<input id=" + "txt" + i + " class='inputText'></input>");
-    var saveBtn = $("<button id=" + i + " class='buttonColor'>" + "Save" + "</button>");
+    var saveBtn = $(
+      "<button id=" + i + " class='buttonColor'>" + "Save" + "</button>"
+    );
     currentDiv.append(labelHour);
     currentDiv.append(inputText);
     currentDiv.append(saveBtn);
@@ -25,40 +25,39 @@ function hourList() {
 }
 //pull/edit/push (w/ parameters)
 function saveStorage(index, textInput) {
-  //pull/declare 
+  //pull/declare
   if (JSON.parse(localStorage.getItem("todo")))
     var arrayTodo = JSON.parse(localStorage.getItem("todo"));
-  else
-    var arrayTodo = [9];
+  else var arrayTodo = [9];
   //info to save, edit
-  arrayTodo[index - 9] = textInput;
+  arrayTodo[index - 10] = textInput;
   //push/save
   localStorage.setItem("todo", JSON.stringify(arrayTodo));
   console.log(JSON.parse(localStorage.getItem("todo")));
 }
 //pull/display (recorded information shown) (w/o parameters)
 function displayStorage() {
-  if (JSON.parse(localStorage.getItem("todo"))){
+  if (JSON.parse(localStorage.getItem("todo"))) {
     var arrayTodo2 = JSON.parse(localStorage.getItem("todo"));
     console.log(arrayTodo2);
-    for (let i = 9; i <= 17; i++) {
-      var inputTextId = ("#txt" + i);
-      $(inputTextId).val(arrayTodo2[i-9]);
+    for (let i = 10; i <= 18; i++) {
+      var inputTextId = "#txt" + i;
+      $(inputTextId).val(arrayTodo2[i - 10]);
     }
   }
-else 
-//validate
-console.log("Talia, local storage not found");
+  //validate
+  else console.log("Talia, local storage not found");
 }
 
 //every element with this class will call this function using jQuery (saveButton)
-$(document).ready(function () {
-  $(".buttonColor").click(function (event) {
+$(document).ready(function() {
+  $(".buttonColor").click(function(event) {
     event.preventDefault();
-    var textId = ("#txt" + this.id);
+    var textId = "#txt" + this.id;
     var textInput = $(textId).val();
     saveStorage(this.id, textInput);
   });
 });
+
 setDate();
 hourList();
