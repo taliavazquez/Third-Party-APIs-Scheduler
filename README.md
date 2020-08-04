@@ -4,7 +4,7 @@ Work Day Planner
 
 ## Motivation
 
-Having organization is a must as a web developer. I've created something simple and easy to use for those of you who have a busy life style and appreciate a bit of structure.
+Having organization is a must as a web developer. I've created something simple and easy to use for those of you who have a busy life style and appreciate a bit of structure for the days work.
 
 ## Style
 
@@ -12,7 +12,7 @@ HTML, CSS, and JS.
 
 ## Credits
 
-Aldo Carillo, Ana Luna, Tim Sanders and Nicholas Konzen
+Aldo Carillo, Ana Luna, Tim Sanders, Nicholas Konzen and my Tutor.
 
 ## Project GitHub Repo
 
