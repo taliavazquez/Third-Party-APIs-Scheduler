@@ -20,7 +20,7 @@ function hourList() {
     currentDiv.append(saveBtn);
     containerDiv.append(currentDiv);
   }
-  //after creating the elements, fill out with the input text.
+  //after creating the elements, fill out with the input text
   displayStorage();
 }
 //pull/edit/push (w/ parameters)
