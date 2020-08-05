@@ -1,42 +1,63 @@
+
 /* this covers the whole background */
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 13px;
   line-height: .5;
-  background-color: yellow;
+  background-color: lightyellow;
 } 
+
+/* this is the military time */
+#hourLabel {
+  color: black;
+ 
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: large;
+ 
+}
+
 /* this covers the heading */
 .jumbotron {
   text-align: center;
-  background-color: magenta;
-  color: yellow;
-  border-radius: 0;
-  border-bottom: 20px solid cyan;
+  background-color: lightpink;
+  color: lightyellow;
+ 
+  border-bottom: 20px solid lightslategray;
 }
-/* this is the military time */
-#hourLabel {
-  color: magenta;
-  font-weight: bold;
-}
-/* ! need to make this button square */
+
+
 .buttonColor {
   font-size: 30px;
-  border: 1px solid yellow;
+  border: 1px solid lightyellow;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 20px;
-  background-color: yellow;
-  color: magenta;
+  background-color: lightyellow;
+  color: lightpink;
 }
+
 /* this covers user input font color */
 .inputText{
   color: magenta;
-  background: cyan;
+  background: black;
   padding: 30px;
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
    
-/* !need to make buttons switch colors active, present, and future slots */
+/* input text boxes switch colors active, present, and future (default) slots */
+.present {
+  background-color: lightpink;
+  color: black;
+}
+.past {
+  background-color: lightslategray;
+  color: black;
+}
+/* .future {
+  background-color: black;
+  color: orange;
+} */
