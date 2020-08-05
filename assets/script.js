@@ -1,7 +1,7 @@
 //function for time
 function setDate() {
   const todaysDate = $("#currentDay");
-  const date = moment().format("dddd, MMMM Do YYYY, h:mm a");
+  const date = moment().format("dddd, MMMM Do, YYYY HH:HH");
   todaysDate.html(date);
 }
 

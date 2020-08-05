@@ -10,11 +10,14 @@ body {
 /* this is the military time */
 #hourLabel {
   color: black;
- 
   margin-left: 12px;
   font-weight: bold;
   font-size: large;
  
+}
+p {
+  margin: 12px;
+  margin-bottom: 10px;
 }
 
 /* this covers the heading */
@@ -22,29 +25,25 @@ body {
   text-align: center;
   background-color: lightpink;
   color: lightyellow;
- 
   border-bottom: 20px solid lightslategray;
 }
 
 
 .buttonColor {
-  font-size: 30px;
-  border: 1px solid lightyellow;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 20px;
+  font-size: 50px;
+  padding: 10px;
   background-color: lightyellow;
   color: lightpink;
+  border-color: transparent;
+  font-style: italic;
 }
 
 /* this covers user input font color */
 .inputText{
-  color: magenta;
-  background: black;
   padding: 30px;
-  white-space: pre-wrap;
-  height: 80px;
+  font-size: 50px;
+  width: 70vw;
+  height: 60px;
   border-top: 1px solid white;;
 }
    
