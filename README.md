@@ -12,11 +12,7 @@ HTML, CSS, and JS.
 
 ## Credits
 
-<<<<<<< HEAD
-Aldo Carillo, Ana Luna, Tim Sanders and Nicholas Konzen
-=======
 Aldo Carrillo, Ana Luna, Tim Sanders, Nicholas Konzen and my Tutor.
->>>>>>> 55f240d8ed6f135496ddc5826579989b84a9a0e1
 
 ## Project GitHub Repo
 
