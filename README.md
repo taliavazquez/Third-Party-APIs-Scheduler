@@ -16,10 +16,10 @@ Aldo Carrillo, Ana Luna, Tim Sanders, Nicholas Konzen and my Tutor.
 
 ## Project GitHub Repo
 
-<a href="https://github.com/taliavazquez/Third-Party-APIs-Scheduler"><bold>Repo</bold></a>
+<a href="https://github.com/taliavazquez/work-day-planner"><bold>Repo</bold></a>
 
 ## Project Website
 
-<a href="https://taliavazquez.github.io/Third-Party-APIs-Scheduler/"><bold>DEMPLOYED SITE</bold></a>
+<a href="https://taliavazquez.github.io/work-day-planner/"><bold>DEMPLOYED SITE</bold></a>
 
 © 2020 Talia Vazquez
