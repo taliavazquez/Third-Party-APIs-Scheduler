@@ -1,7 +1,7 @@
 # Project Title
 
 Work Day Planner
-
+![password generator demo](./assets/planner2020.png)
 ## Motivation
 
 Having organization is a must as a web developer. I've created something simple and easy to use for those of you who have a busy life style and appreciate a bit of structure for the days workload.
