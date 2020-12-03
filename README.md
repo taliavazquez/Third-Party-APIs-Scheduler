@@ -1,6 +1,4 @@
-# Project Title
-
-Work Day Planner
+# Work Day Planner
 ![password generator demo](./assets/planner2020.png)
 ## Motivation
 
